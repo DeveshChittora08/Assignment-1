@@ -1,5 +1,6 @@
 body{
     display: block;
+ 
 }
 #page-wrapper{
     background: #d4d9dd url(bg03.jpg);
@@ -106,7 +107,10 @@ a.button{
     position: relative;
     left: 54%;
     top: 4.5rem;
-    border: solid 8px #fff;
+    display: block;
+    background: #fff url(bg04.png);
+    padding: 10px;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
 }
 
 .banner-image img{ 
@@ -116,7 +120,7 @@ a.button{
 /* features */
 
 /* #features{
-   
+   +
 } */
 
 .row3{
@@ -134,8 +138,10 @@ a.button{
 
 }
  .pic{
-    border: solid 8px #fff;
-    width: 18vw;
+    display: block;
+    background: #fff url(bg04.png);
+    padding: 10px;
+    box-shadow: 3px 3px 3px 1px rgb(0 0 0 / 15%);
  }
 
  .para{
@@ -152,14 +158,14 @@ a.button{
     display: flex;
     justify-content: center;
     background:#f7f7f7 url(bg04.png);
-    height: 70%;
+    height: 80%;
     position: relative;
     top: 17rem;
 
  }
  .row4{
         background-color: #fff;
-        height: 60vh;
+        height: 70vh;
         width: 25vw;
         margin:1.5rem;
         box-shadow: 2px 2px 2px 1px rgb(128 128 128 / 10%);
@@ -173,7 +179,7 @@ a.button{
  }
  .row4 h3{
     font-weight: 250;
-    font-size: 24px;
+    font-size: 17px;
     padding: 0 2.2rem;
  }
  .row4 p{
@@ -189,8 +195,63 @@ a.button{
     width: 19vw;
     padding: 0.5rem 2.5rem;
     position: relative;
-    bottom: 5vh;
+    bottom: 4vh;
  }
+  
+ .check-list li{
+    padding: 0.7em 0 0.7em 45px;
+    font-size: 1.2em;
+    background: url(icon-checkmark.png) 0px 0.5em no-repeat ;
+    list-style: none;
+    border-bottom: solid 1px #e2e6e8;
+    margin-bottom: 0.1;
+ }
+ .quote-list li{
+    
+    list-style: none;
+    float:left;
+    /* position: relative;
+    bottom: 1em; */
+ }
+ .quote-list li span{
+    padding: 0.5em;
+ }
+ .quote-list li img{
+    width: 5vw;
+    padding: 1.2em 0.2em;
+    float: left;
+    
+ }
+ .quote-list li p{
+    margin: 0px 0px -3px -118px;
+    font-size: 1.1em;
+    font-style: italic;
+    width: 50ch;
+ }
+
+ .footer{
+    background: #d4d9dd url(bg03.jpg);
+    height: 43vh;
+    color: #546b76;
+    position: relative;
+    top: 45vh;
+    display: flex;
+ }
+.col1{
+    display: flex;
+    justify-content: space-between;
+}
+.col a{
+    color: #272d30;
+}
+.row6 div{
+    width: 40ch;
+    margin: 0.2em 0 0 21rem;
+}
+.col1{
+    list-style: none;
+    
+}
  
 
 
